@@ -1,0 +1,148 @@
+{
+
+
+
+    // VSCode Settings
+    "extensions.autoUpdate": true,
+    "keyboard.touchbar.enabled": false,
+    "terminal.external.osxExec": "iTerm.app",
+    "workbench.statusBar.feedback.visible": false,
+    
+    // Window Settings
+    "window.zoomLevel": 0,
+    "window.titleBarStyle": "native",
+
+    // Workbench Settings
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.editor.showIcons": false,
+    "workbench.activityBar.visible": true,
+    "workbench.colorCustomizations": {
+	    "statusBar.foreground": "#484848",
+	    "statusBar.background": "#e5e5e5",
+	    "statusBar.noFolderBackground": "#e5e5e5",
+	    "editorWhitespace.foreground": "#ffffff44",
+	    "editorIndentGuide.background": "#ffffff00",
+	    "editorIndentGuide.activeBackground": "#dddddd88",
+    },
+    
+    // Editor Settings
+    "editor.wordWrapColumn": 120,
+    "editor.wordWrap": "bounded",
+    "editor.fontFamily": "Hack",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.roundedSelection": true,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.autoIndent": true,
+
+    // Language Settings
+    "html.format.wrapLineLength": 0,
+    
+    // Plugins
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[javascriptreact]": {
+	    "editor.formatOnSave": true
+    },
+    "[html]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "sync.gist": "this-is-your-unique-id",
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "sync.forceDownload": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "editor.renderIndentGuides": false,
+    "gitlens.advanced.messages": {
+        "suppressCommitNotFoundWarning": true
+    },
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "vscode-icons",
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "python.linting.enabled": false,
+    "atlascode.jira.workingSite": {
+        "id": "this-is-a-unique-id",
+        "url": "https://some-company.atlassian.net",
+        "name": "some-company",
+        "scopes": [
+            "manage:jira-project",
+            "write:jira-work",
+            "read:jira-work",
+            "read:jira-user"
+        ],
+        "avatarUrl": "https://site-admin-avatar-cdn.prod.public.atl-paas.net/avatars/240/flag.png",
+        "baseUrlSuffix": "atlassian.net"
+    },
+    "yaml.schemas": {
+        "file:///Users/cavagnolo/.vscode/extensions/atlassian.atlascode-2.1.4/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "vs-kubernetes": {
+        "vs-kubernetes.helm-path": "/Users/kcavagnolo/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vs-kubernetes.minikube-path": "/Users/kcavagnolo/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+        "vs-kubernetes.draft-path": "/Users/kcavagnolo/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "remote.SSH.enableHostsExplorer": false,
+    "remote.SSH.showLoginTerminal": true,
+    "code-runner.enableAppInsights": false,
+    "atlascode.bitbucket.contextMenus.enabled": false,
+    "atlascode.bitbucket.explorer.enabled": false,
+    "atlascode.bitbucket.explorer.notifications.pullRequestCreated": false,
+    "atlascode.bitbucket.explorer.relatedBitbucketIssues.enabled": false,
+    "atlascode.bitbucket.explorer.relatedJiraIssues.enabled": false,
+    "atlascode.bitbucket.issues.explorerEnabled": false,
+    "atlascode.bitbucket.issues.monitorEnabled": false,
+    "atlascode.bitbucket.pipelines.explorerEnabled": false,
+    "atlascode.bitbucket.pipelines.hideEmpty": false,
+    "atlascode.bitbucket.pipelines.monitorEnabled": false,
+    "atlascode.bitbucket.statusbar.showLogin": false,
+    "git.autofetch": true,
+    "atlascode.jira.statusbar.showSite": true,
+    "atlascode.jira.statusbar.showProject": true,
+    "atlascode.bitbucket.statusbar.enabled": false,
+    "sync.forceUpload": true,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "issue-opened",
+            "type": "line",
+            "foreground": "yellow",
+            "iconColour": "orange"
+        },
+        "FIXME": {
+            "icon": "tools",
+            "type": "line",
+            "foreground": "yellow",
+            "iconColour": "red"
+        }
+    },
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "text",
+        "opacity": 50,
+        "iconColour": "red"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "atlascode.jira.jqlList": [
+        {
+            "id": "this-is-a-unique-id",
+            "enabled": true,
+            "name": "My Jira Issues",
+            "query": "assignee = currentUser() ORDER BY lastViewed DESC ",
+            "siteId": "this-is-a-unique-id",
+            "monitor": true
+        }
+    ],
+    "atlascode.bitbucket.enabled": false,
+    "atlascode.jira.lastCreateSiteAndProject": {
+        "siteId": "this-is-a-unique-id",
+        "projectKey": "NOPE"
+    }
+}
